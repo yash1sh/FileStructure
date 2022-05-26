@@ -8,7 +8,7 @@ class prg3
 {
     private:char a[10][10];
     public: void std_io();
-            void file_io();
+            void file_io(); // Not used can be used to differenciate and then use the switch statement or just send the input in std_io()s
 
 };
 
