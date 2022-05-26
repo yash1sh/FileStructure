@@ -1,3 +1,13 @@
+
+//Printing TExting in different file prg1
+
+
+
+
+
+
+
+
 #include<iostream>
 #include<fstream>
 using namespace std;
@@ -17,5 +27,8 @@ int main()
         cout<<ch;
     }
     return 0;
+
+
+
 
 }
