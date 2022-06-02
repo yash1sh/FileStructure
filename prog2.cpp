@@ -80,7 +80,7 @@ class student{
                 cout<<"Enter the file name";
                 cin>>filename;
                 ifile.open(filename,ios::in);
-                while (ifile.eof())
+                while (!ifile.eof())
                 {
                     ifile.getline(name,20,'|');
                     ifile.getline(sem,10,'|');
